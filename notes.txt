@@ -1,0 +1,1 @@
+find  app spec  -type f -iname '*' | xargs cat | grep -v '^\S*$' | wc -l
